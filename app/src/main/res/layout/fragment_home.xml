@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:fitsSystemWindows="true">
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="20sp"
+        android:entries="@array/spingarr"/>
+
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="100px"
+        android:layout_height="60px"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@id/sp1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/swap"></ImageView>
+
+    <Spinner
+        android:id="@+id/sp2"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@id/im"
+        android:entries="@array/spingarr1"
+ />
+    <EditText
+        android:id="@+id/et_yuan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="输入源语言"
+        android:lines="1"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"></EditText>
+
+   <ImageView
+       android:id="@+id/im1"
+       android:layout_width="100px"
+       android:layout_height="60px"
+       android:src="@drawable/check"
+       android:layout_marginLeft="350dp"
+       android:layout_marginTop="100dp"></ImageView>
+
+    <TextView
+        android:id="@+id/tv_mudi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        ></TextView>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="50dp"
+        android:scrollbars="horizontal"
+        ></ListView>
+</RelativeLayout>

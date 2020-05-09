@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">auk‘s translation</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">已保存</string>
+    <string name="title_notifications">about</string>
+    <string name="introduce1">欢迎您使用auk\'s translation</string>
+    <string name="introduce2">
+        功能:\n
+            \ \ 1.调用百度翻译API，实现了11种语言(简体及繁体中文，文言文，英语，日语，法语，德语,韩语，西班牙语，泰语，阿拉伯语，俄语)的翻译功能。\n
+            \ \ 2.将最后10个查询过的单词实时显示到了历史记录界面。
+    </string>
+    <string name="introduce3">
+        使用技术:\n
+        \ \ 1.使用 HttpURLConnection实现网络请求的收发。
+        \n\ \ 2.使用sqlite及adapter实现了翻译记录的存储及显示。
+    </string>
+</resources>

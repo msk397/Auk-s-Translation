@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/star_image"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="50dp"
+        android:focusable="false"
+        android:layout_height="40dp"
+
+        />
+    <TextView
+        android:id="@+id/list_yuan"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="-50dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/list_mudi"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/list_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+
+
+</LinearLayout>
